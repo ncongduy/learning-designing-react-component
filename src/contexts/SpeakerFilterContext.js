@@ -6,7 +6,7 @@ export const SpeakerFilterContext = createContext();
 export function SpeakerFilterProvider({
 	children,
 	startingShowSessions = false,
-	startingEventYear = 2019,
+	startingEventYear = '2019',
 }) {
 	const {
 		showSessions,

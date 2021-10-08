@@ -16,6 +16,7 @@ export default function SpeakerAdd({ eventYear, insertRecord }) {
 						first: firstLastArray[0],
 						last: firstLastArray[1],
 						bio: 'Bio not entered yet',
+						favorite: false,
 						sessions: [
 							{
 								id: '88888',
